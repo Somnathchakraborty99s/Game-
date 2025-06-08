@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="new.css">
+    <script src="new.js"></script>
+</head>
+<body>
+    <div id="welcome-screen">
+    <h1>Enter Your Name</h1>
+    <input type="text" id="player-name" placeholder="Your Name">
+    <button id="start-game-btn">Start Game</button>
+</div>
+
+<div id="game-container" class="hidden">
+    <h2>Player: <span id="current-player"></span></h2>
+</div>
+
+<body>
+    <h1>Avengers Puzzle Challenge</h1>
+
+    <div class="stats">
+        <div class="stat-box">
+            <h3>Turns</h3>
+            <span id="turns">0</span>
+        </div>
+        <div class="stat-box">
+            <h3>Time</h3>
+            <span id="timer">00:00</span>
+        </div>
+    </div>
+
+    <div class="fffx">
+        <div id="board"></div>
+        <div id="pieces" class="hidden"></div>
+        <div id="org-pic">
+            <img src="/puxzzel_game/new/images/fotojet-2025-06-04t071853234_1749001807.jpg" alt="org pic">
+        </div>
+    </div>
+
+    <button id="start-btn">Start Game</button>
+    <button id="reset-btn" class="hidden">Reset Game</button>
+
+
+
+    <div id="high-scores">
+        <h2>High Scores</h2>
+        <ol id="scores-list"></ol>
+    </div>
+   
+    
+</body>
+</html>
